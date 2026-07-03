@@ -1,13 +1,18 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "name": "Apache Superset",
   "theme": "mint",
-  "navigation": [
-    {
-      "group": "Documentation",
-      "pages": [
-        "index"
-      ]
-    }
-  ]
+  "name": "Apache Superset",
+  "colors": {
+    "primary": "#3B82F6"
+  },
+  "navigation": {
+    "groups": [
+      {
+        "group": "Documentation",
+        "pages": [
+          "index"
+        ]
+      }
+    ]
+  }
 }
