@@ -1,0 +1,13 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Apache Superset",
+  "theme": "mint",
+  "navigation": [
+    {
+      "group": "Documentation",
+      "pages": [
+        "index"
+      ]
+    }
+  ]
+}
