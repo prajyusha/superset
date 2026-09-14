@@ -1,5 +1,5 @@
 ---
-title: Component Style Guidelines and Best Practices
+title: "Component Style Guidelines and Best Practices"
 ---
 
 <!--

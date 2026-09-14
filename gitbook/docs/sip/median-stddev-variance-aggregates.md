@@ -1,5 +1,5 @@
 ---
-title: SIP: System-wide MEDIAN, Sample Standard Deviation, and Sample Variance metric aggregates
+title: "SIP: System-wide MEDIAN, Sample Standard Deviation, and Sample Variance metric aggregates"
 ---
 
 <!--

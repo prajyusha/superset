@@ -1,5 +1,5 @@
 ---
-title: Exploring Data in Superset
+title: "Exploring Data in Superset"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

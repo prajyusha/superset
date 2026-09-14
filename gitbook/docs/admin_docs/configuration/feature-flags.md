@@ -1,5 +1,5 @@
 ---
-title: Feature Flags
+title: "Feature Flags"
 ---
 
 import featureFlags from '@site/static/feature-flags.json';

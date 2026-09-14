@@ -1,5 +1,5 @@
 ---
-title: Issue Reporting
+title: "Issue Reporting"
 ---
 
 <!--

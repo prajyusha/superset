@@ -1,5 +1,5 @@
 ---
-title: Event Logging
+title: "Event Logging"
 ---
 
 # Logging

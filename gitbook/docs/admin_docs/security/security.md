@@ -1,5 +1,5 @@
 ---
-title: Security Configurations
+title: "Security Configurations"
 ---
 
 Authentication and authorization in Superset is handled by Flask AppBuilder (FAB), an application development framework

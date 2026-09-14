@@ -1,5 +1,5 @@
 ---
-title: Submitting Pull Requests
+title: "Submitting Pull Requests"
 ---
 
 <!--

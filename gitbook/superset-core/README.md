@@ -1,5 +1,5 @@
 ---
-title: apache-superset-core
+title: "apache-superset-core"
 ---
 
 <!--

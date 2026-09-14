@@ -1,5 +1,5 @@
 ---
-title: Contributing to the Superset Embedded SDK
+title: "Contributing to the Superset Embedded SDK"
 ---
 
 <!--

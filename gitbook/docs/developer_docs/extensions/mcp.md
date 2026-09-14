@@ -1,5 +1,5 @@
 ---
-title: MCP Integration
+title: "MCP Integration"
 ---
 
 <!--

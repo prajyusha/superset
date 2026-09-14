@@ -1,5 +1,5 @@
 ---
-title: Alerts and Reports
+title: "Alerts and Reports"
 ---
 
 # Alerts and Reports

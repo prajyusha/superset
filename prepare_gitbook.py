@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 import shutil
 from pathlib import Path
@@ -35,6 +36,7 @@ EXCLUDE_PATTERNS = [
     "/components/",
     "/.claude/",
     "CHANGELOG/",
+    "/tests/",
 ]
 
 SECTION_TITLES = {
@@ -88,9 +90,9 @@ def convert(src, dest):
     meta, body = split_frontmatter(text)
     title = derive_title(meta, body, src)
     kept = {k: v for k, v in meta.items() if k not in DROP_FRONTMATTER_KEYS and k != "title"}
-    header = ["---", f"title: {title}"]
+    header = ["---", f"title: {json.dumps(title, ensure_ascii=False)}"]
     for key, value in kept.items():
-        header.append(f"{key}: {value}")
+        header.append(f"{key}: {json.dumps(value, ensure_ascii=False)}")
     header.append("---")
     header.append("")
     dest.parent.mkdir(parents=True, exist_ok=True)

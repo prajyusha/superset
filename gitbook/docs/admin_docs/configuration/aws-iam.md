@@ -1,5 +1,5 @@
 ---
-title: AWS IAM Authentication
+title: "AWS IAM Authentication"
 ---
 
 # AWS IAM Authentication for AWS Databases

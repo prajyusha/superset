@@ -1,5 +1,5 @@
 ---
-title: Caching
+title: "Caching"
 ---
 
 # Caching

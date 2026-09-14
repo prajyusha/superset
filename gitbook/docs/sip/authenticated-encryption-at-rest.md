@@ -1,5 +1,5 @@
 ---
-title: SIP: Authenticated encryption (AES-GCM) for app-encrypted fields
+title: "SIP: Authenticated encryption (AES-GCM) for app-encrypted fields"
 ---
 
 <!--

@@ -1,5 +1,5 @@
 ---
-title: Superset Embedded SDK
+title: "Superset Embedded SDK"
 ---
 
 <!--

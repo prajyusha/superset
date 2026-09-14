@@ -1,5 +1,5 @@
 ---
-title: Upgrading the Superset Helm Chart
+title: "Upgrading the Superset Helm Chart"
 ---
 
 <!--

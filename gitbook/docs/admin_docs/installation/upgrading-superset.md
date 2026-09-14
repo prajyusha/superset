@@ -1,5 +1,5 @@
 ---
-title: Upgrading Superset
+title: "Upgrading Superset"
 ---
 
 # Upgrading Superset

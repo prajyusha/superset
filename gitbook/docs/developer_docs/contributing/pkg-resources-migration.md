@@ -1,5 +1,5 @@
 ---
-title: pkg_resources Migration Guide
+title: "pkg_resources Migration Guide"
 ---
 
 <!--

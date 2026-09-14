@@ -1,5 +1,5 @@
 ---
-title: Contributing to Apache Superset
+title: "Contributing to Apache Superset"
 ---
 
 <!--

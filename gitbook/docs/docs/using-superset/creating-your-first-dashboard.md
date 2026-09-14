@@ -1,5 +1,5 @@
 ---
-title: Creating Your First Dashboard
+title: "Creating Your First Dashboard"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

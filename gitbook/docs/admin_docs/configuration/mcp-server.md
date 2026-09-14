@@ -1,5 +1,5 @@
 ---
-title: MCP Server Deployment & Authentication
+title: "MCP Server Deployment & Authentication"
 ---
 
 <!--

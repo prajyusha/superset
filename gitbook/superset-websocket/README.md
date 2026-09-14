@@ -1,5 +1,5 @@
 ---
-title: Superset WebSocket Server
+title: "Superset WebSocket Server"
 ---
 
 <!--

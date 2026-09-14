@@ -1,7 +1,7 @@
 ---
-title: Number Formatting
-description: Reference for the built-in D3-based number format presets available on chart metrics and axes
-keywords: [number format, d3 format, formatting, duration, memory, length, distance]
+title: "Number Formatting"
+description: "Reference for the built-in D3-based number format presets available on chart metrics and axes"
+keywords: "[number format, d3 format, formatting, duration, memory, length, distance]"
 ---
 
 {/*

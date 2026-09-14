@@ -1,5 +1,5 @@
 ---
-title: Dashboard Performance
+title: "Dashboard Performance"
 ---
 
 <!--

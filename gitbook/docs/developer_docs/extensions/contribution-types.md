@@ -1,5 +1,5 @@
 ---
-title: Contribution Types
+title: "Contribution Types"
 ---
 
 <!--

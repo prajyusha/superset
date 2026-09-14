@@ -1,5 +1,5 @@
 ---
-title: Editors
+title: "Editors"
 ---
 
 <!--

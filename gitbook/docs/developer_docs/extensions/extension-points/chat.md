@@ -1,5 +1,5 @@
 ---
-title: Chat
+title: "Chat"
 ---
 
 <!--

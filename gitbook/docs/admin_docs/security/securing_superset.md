@@ -1,5 +1,5 @@
 ---
-title: Securing Your Superset Installation for Production
+title: "Securing Your Superset Installation for Production"
 ---
 
 > _This guide applies to Apache Superset version 4.0 and later and is an evolving set of best practices that administrators should adapt to their specific deployment architecture._

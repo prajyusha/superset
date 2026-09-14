@@ -1,5 +1,5 @@
 ---
-title: Setting up a Development Environment
+title: "Setting up a Development Environment"
 ---
 
 <!--

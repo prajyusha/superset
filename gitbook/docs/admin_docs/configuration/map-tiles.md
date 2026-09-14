@@ -1,5 +1,5 @@
 ---
-title: Map Tiles
+title: "Map Tiles"
 ---
 
 # Map tiles

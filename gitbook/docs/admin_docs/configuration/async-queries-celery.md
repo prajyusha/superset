@@ -1,5 +1,5 @@
 ---
-title: Async Queries via Celery
+title: "Async Queries via Celery"
 ---
 
 # Async Queries via Celery

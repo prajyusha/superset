@@ -1,5 +1,5 @@
 ---
-title: Docker Compose
+title: "Docker Compose"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

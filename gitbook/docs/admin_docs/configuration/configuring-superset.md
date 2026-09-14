@@ -1,5 +1,5 @@
 ---
-title: Configuring Superset
+title: "Configuring Superset"
 ---
 
 # Configuring Superset

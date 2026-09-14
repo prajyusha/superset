@@ -1,5 +1,5 @@
 ---
-title: Release Notes for Superset 4.0.0
+title: "Release Notes for Superset 4.0.0"
 ---
 
 <!--

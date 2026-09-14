@@ -1,5 +1,5 @@
 ---
-title: Dependencies
+title: "Dependencies"
 ---
 
 <!--

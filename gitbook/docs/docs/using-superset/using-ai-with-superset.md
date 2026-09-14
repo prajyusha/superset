@@ -1,5 +1,5 @@
 ---
-title: Using AI with Superset
+title: "Using AI with Superset"
 ---
 
 <!--

@@ -1,5 +1,5 @@
 ---
-title: Handlebars Chart
+title: "Handlebars Chart"
 ---
 
 ## Handlebars Chart

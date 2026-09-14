@@ -1,5 +1,5 @@
 ---
-title: Recently Archived
+title: "Recently Archived"
 ---
 
 # Recently Archived

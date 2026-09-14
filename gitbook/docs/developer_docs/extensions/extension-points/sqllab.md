@@ -1,5 +1,5 @@
 ---
-title: SQL Lab
+title: "SQL Lab"
 ---
 
 <!--

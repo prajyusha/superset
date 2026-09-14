@@ -1,5 +1,5 @@
 ---
-title: SQL Templating
+title: "SQL Templating"
 ---
 
 # SQL Templating

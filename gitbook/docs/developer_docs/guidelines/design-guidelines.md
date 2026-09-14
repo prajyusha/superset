@@ -1,5 +1,5 @@
 ---
-title: Design Guidelines
+title: "Design Guidelines"
 ---
 
 <!--

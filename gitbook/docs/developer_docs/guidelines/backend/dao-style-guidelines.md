@@ -1,5 +1,5 @@
 ---
-title: DAO Style Guidelines and Best Practices
+title: "DAO Style Guidelines and Best Practices"
 ---
 
 <!--

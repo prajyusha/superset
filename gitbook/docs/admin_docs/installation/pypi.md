@@ -1,5 +1,5 @@
 ---
-title: PyPI
+title: "PyPI"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

@@ -1,5 +1,5 @@
 ---
-title: Emotion Styling Guidelines and Best Practices
+title: "Emotion Styling Guidelines and Best Practices"
 ---
 
 <!--

@@ -1,5 +1,5 @@
 ---
-title: Country Map Tools
+title: "Country Map Tools"
 ---
 
 import countriesData from '../../data/countries.json';

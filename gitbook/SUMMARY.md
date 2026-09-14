@@ -141,7 +141,6 @@
 
 * [apache-superset-extensions-cli](superset-extensions-cli/README.md)
 * [Changelog](superset-extensions-cli/CHANGELOG.md)
-* [Licensed to the Apache Software Foundation (ASF) under one](superset-extensions-cli/tests/README.md)
 
 ## Superset Core
 

@@ -1,7 +1,7 @@
 ---
-title: Frequently Asked Questions
-description: Common questions about Apache Superset including performance, database support, visualizations, and configuration.
-keywords: 
+title: "Frequently Asked Questions"
+description: "Common questions about Apache Superset including performance, database support, visualizations, and configuration."
+keywords: ""
 ---
 
 import FAQSchema from '@site/src/components/FAQSchema';

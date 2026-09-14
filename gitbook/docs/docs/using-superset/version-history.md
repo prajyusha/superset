@@ -1,5 +1,5 @@
 ---
-title: Version History
+title: "Version History"
 ---
 
 # Version History

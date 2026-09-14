@@ -1,5 +1,5 @@
 ---
-title: Issue Codes
+title: "Issue Codes"
 ---
 
 # Issue Code Reference

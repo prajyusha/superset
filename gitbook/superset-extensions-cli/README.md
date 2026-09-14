@@ -1,5 +1,5 @@
 ---
-title: apache-superset-extensions-cli
+title: "apache-superset-extensions-cli"
 ---
 
 <!--

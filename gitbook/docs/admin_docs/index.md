@@ -1,6 +1,6 @@
 ---
-title: Admin Documentation
-description: Administrator guides for installing, configuring, and managing Apache Superset
+title: "Admin Documentation"
+description: "Administrator guides for installing, configuring, and managing Apache Superset"
 ---
 
 <!--

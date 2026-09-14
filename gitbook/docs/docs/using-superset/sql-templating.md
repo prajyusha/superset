@@ -1,7 +1,7 @@
 ---
-title: SQL Templating
-description: Use Jinja templates in SQL Lab and virtual datasets to create dynamic queries
-keywords: [sql templating, jinja, sql lab, virtual datasets, dynamic queries]
+title: "SQL Templating"
+description: "Use Jinja templates in SQL Lab and virtual datasets to create dynamic queries"
+keywords: "[sql templating, jinja, sql lab, virtual datasets, dynamic queries]"
 ---
 
 {/*

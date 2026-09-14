@@ -1,5 +1,5 @@
 ---
-title: Installation Methods
+title: "Installation Methods"
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

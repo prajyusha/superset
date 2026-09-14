@@ -1,5 +1,5 @@
 ---
-title: Granular Export Controls
+title: "Granular Export Controls"
 ---
 
 # Granular Export Controls

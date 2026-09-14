@@ -1,5 +1,5 @@
 ---
-title: Test client application
+title: "Test client application"
 ---
 
 <!--

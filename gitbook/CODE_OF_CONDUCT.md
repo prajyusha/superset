@@ -1,5 +1,5 @@
 ---
-title: CODE OF CONDUCT
+title: "CODE OF CONDUCT"
 ---
 
 <!--

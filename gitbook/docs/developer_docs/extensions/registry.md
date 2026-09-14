@@ -1,5 +1,5 @@
 ---
-title: Community Extensions
+title: "Community Extensions"
 ---
 
 <!--

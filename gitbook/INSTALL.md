@@ -1,5 +1,5 @@
 ---
-title: Installing Apache Superset
+title: "Installing Apache Superset"
 ---
 
 <!--

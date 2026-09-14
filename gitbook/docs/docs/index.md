@@ -1,5 +1,5 @@
 ---
-title: Superset
+title: "Superset"
 ---
 
 import DatabaseLogoWall from '@site/src/components/databases/DatabaseLogoWall';

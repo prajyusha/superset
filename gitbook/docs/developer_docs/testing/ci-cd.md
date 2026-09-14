@@ -1,5 +1,5 @@
 ---
-title: CI/CD and Automation
+title: "CI/CD and Automation"
 ---
 
 <!--

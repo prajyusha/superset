@@ -1,5 +1,5 @@
 ---
-title: CVEs fixed by release
+title: "CVEs fixed by release"
 ---
 
 #### Version 6.0.0

@@ -1,5 +1,5 @@
 ---
-title: Quickstart
+title: "Quickstart"
 ---
 
 **Ready to try Apache Superset?** This quickstart guide will help you
