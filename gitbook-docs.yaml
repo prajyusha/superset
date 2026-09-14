@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+
+site:
+  title: Superset Docs
+  structure:
+    - type: space
+      key: superset-docs
+      title: Superset Documentation
+      path: docs
+      default: true
+      content:
+        directory: ./gitbook
