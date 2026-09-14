@@ -18,7 +18,6 @@
 # isort:skip_file
 """Unit tests for Superset"""
 
-from datetime import datetime
 from io import BytesIO
 from typing import Optional
 from unittest.mock import Mock, patch
@@ -606,7 +605,7 @@ class TestSavedQueryApi(SupersetTestCase):
             db.session.query(SavedQuery).filter(SavedQuery.label == "label1").all()[0]
         )
         self.login(ADMIN_USERNAME)
-        with freeze_time(datetime.now()):
+        with freeze_time(saved_query.changed_on):
             uri = f"api/v1/saved_query/{saved_query.id}"
             rv = self.get_assert_metric(uri, "get")
             assert rv.status_code == 200
@@ -863,11 +862,12 @@ class TestSavedQueryApi(SupersetTestCase):
     @patch(
         "superset.queries.saved_queries.filters.security_manager.can_access_all_queries"
     )
-    def test_delete_bulk_saved_query_all_query_access_keeps_owner_filter(
+    def test_delete_bulk_saved_query_all_query_access_keeps_creator_filter(
         self, mock_can_access_all_queries: Mock
     ) -> None:
         """
-        Saved Query API: Test all_query_access does not bypass ownership for delete
+        Saved Query API: Test all_query_access does not bypass creator scoping
+        for delete.
         """
         mock_can_access_all_queries.return_value = True
         admin = self.get_user("admin")

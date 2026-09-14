@@ -127,11 +127,11 @@ const engineSpecificAlertMapping = {
 };
 
 const TabsStyled = styled(Tabs)`
-  .ant-tabs-content {
+  .ant-tabs-body {
     width: 100%;
     overflow: inherit;
 
-    & > .ant-tabs-tabpane {
+    & > .ant-tabs-content {
       position: relative;
     }
   }
@@ -343,13 +343,17 @@ export function dbReducer(
         action.payload.name === 'schema_cache_timeout' ||
         action.payload.name === 'table_cache_timeout'
       ) {
+        const timeoutValue =
+          action.payload.value === ''
+            ? undefined
+            : Math.max(0, Number(action.payload.value) || 0);
         return {
           ...trimmedState,
           extra: JSON.stringify({
             ...extraJson,
             metadata_cache_timeout: {
               ...extraJson?.metadata_cache_timeout,
-              [action.payload.name]: Number(action.payload.value),
+              [action.payload.name]: timeoutValue,
             },
           }),
         };
@@ -413,6 +417,16 @@ export function dbReducer(
         return {
           ...trimmedState,
           [action.payload.name]: action.payload.checked,
+        };
+      }
+      if (action.payload.name === 'cache_timeout') {
+        const val =
+          action.payload.value === '' ? NaN : Number(action.payload.value);
+        return {
+          ...trimmedState,
+          cache_timeout: Number.isNaN(val)
+            ? undefined
+            : String(Math.max(-1, val)),
         };
       }
       return {
@@ -1301,7 +1315,7 @@ const DatabaseModal: FunctionComponent<DatabaseModalProps> = ({
             className="preferred-item"
             onClick={() => setDatabaseModel(database.name)}
             buttonText={database.name}
-            icon={dbImages?.[database.engine]}
+            icon={dbImages?.[database.engine] || ''}
             key={`${database.name}`}
           />
         ))}
@@ -2342,6 +2356,7 @@ const DatabaseModal: FunctionComponent<DatabaseModalProps> = ({
                     id="databaseFile"
                     data-test="database-file-input"
                     accept=".yaml,.json,.yml,.zip"
+                    fileList={fileList}
                     customRequest={() => {}}
                     onChange={onDbImport}
                     onRemove={removeFile}
